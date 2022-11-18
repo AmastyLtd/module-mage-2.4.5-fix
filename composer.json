@@ -1,0 +1,24 @@
+{
+    "name": "amasty/module-mage-2.4.5-fix",
+    "description": "Fix Product Collection Changes issue in Magento 2.4.5 by Amasty",
+    "require": {
+        "php": ">=7.3",
+        "magento/framework": ">=103.0.5",
+        "magento/module-catalog-inventory": ">=100.4.5",
+        "amasty/base": ">=1.14.2"
+    },
+    "homepage": "https://amasty.com/",
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "license": [
+        "Commercial"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Amasty\\Mage245Fix\\": ""
+        }
+    }
+}
