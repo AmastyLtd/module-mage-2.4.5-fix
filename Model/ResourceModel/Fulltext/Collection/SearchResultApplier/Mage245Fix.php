@@ -9,6 +9,7 @@ use Magento\Framework\Api\Search\SearchResultInterface;
 use Magento\Framework\Data\Collection;
 
 /**
+ * fix magento issue: https://github.com/magento/magento2/issues/35918
  * Correction of strong typing and table prefixes. Our categorical filter can be a multiselect, and therefore we
  * always set the array to the filter category, and magneto in this class in the private method
  * categoryProductByCustomSortOrder strongly types the value from the filter as int, which causes an error.
